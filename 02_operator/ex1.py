@@ -6,9 +6,13 @@ b = 3
 print(a + b)
 print(a - b)
 print(a * b)
-print(a / b)  # 나머지
-print(a % b)  # 몫
+print(a / b)  # Float
+print(a % b)  # 나머지
+print(a // b)  # 몫
 print(a**b)
+
+# 10 / 3 = 3 (c)
+print(10 / 2)
 
 # 복합 대입 연산자
 a += 4
