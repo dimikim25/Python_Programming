@@ -137,4 +137,3 @@ finally:
     # 오류가 나더라도 반드시 connection close하기
     if student is not None:
         student.close()
-        
